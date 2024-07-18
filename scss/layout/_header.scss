@@ -1,0 +1,32 @@
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 12px;
+}
+
+.navbar{
+    list-style: none;
+    font-size: 15px;
+    li{
+        margin: 10px;
+        letter-spacing: 3px;
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
+
+.button-container{
+    height: 30px;
+    width: auto;
+    margin-top: 15px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: 2px  #3582b9 solid;
+    a{
+        text-decoration: none;
+        color: #3582b9;
+        padding: 10px 10px
+    }
+}

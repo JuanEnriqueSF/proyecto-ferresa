@@ -1,0 +1,45 @@
+/* contenedor hero*/
+.hero {
+	display: flex;
+	justify-content: center;
+}
+.hero-img-primary {
+	height: 540px;
+}
+.hero-container-info {
+	display: flex;
+	flex-direction: column;
+	width: 480px;
+	text-align: justify;
+	margin-left: 10px;
+	height: 300px;
+	margin-bottom: 20px;
+}
+.hero-description {
+	font-size: 16px;
+	background-color: $background-color_1;
+	padding: 30px;
+	margin-bottom: 10px;
+	h1 {
+		font-size: 30px;
+		margin-bottom: 20px;
+	}
+	p {
+		margin-bottom: 30px;
+	}
+}
+.hero-button-container {
+	display: inline-block;
+	background-color: $background-color_2;
+	border-radius: 5px;
+	text-align: center;
+	padding: 20px 24px;
+	a {
+		text-decoration: none;
+		color: $color_1;
+	}
+}
+.hero-img-secundary {
+	display: flex;
+	justify-content: space-between;
+}
